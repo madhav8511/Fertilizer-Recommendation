@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #006A4E;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 98%; 
+    box-shadow: 10px 5px 5px black;
+}
+
+header .logo{
+    display: flex;
+    width: 230px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo .logo-image{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+header .logo text{
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li {
+    position: relative;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    padding: 5px 0; 
+    position: relative; 
+    transition: color 0.3s ease; 
+}
+
+header nav ul li a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 3px;
+    background-color: white;
+    transition: width 0.3s ease;
+}
+
+header nav ul li a:hover::after {
+    width: 100%; 
+}
+
+header nav ul li a:hover {
+    color: white; 
+}
+
+@media (max-width:800px){
+
+    header .logo {
+        font-size: 22px;
+        font-weight: 600;
+        color: white;
+    }
+
+    header nav ul {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+}
