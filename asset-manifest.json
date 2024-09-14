@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Fertilizer-Recommendation/static/css/main.14aaf87f.css",
+    "main.js": "/Fertilizer-Recommendation/static/js/main.a822aaee.js",
+    "index.html": "/Fertilizer-Recommendation/index.html",
+    "main.14aaf87f.css.map": "/Fertilizer-Recommendation/static/css/main.14aaf87f.css.map",
+    "main.a822aaee.js.map": "/Fertilizer-Recommendation/static/js/main.a822aaee.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14aaf87f.css",
+    "static/js/main.a822aaee.js"
+  ]
+}
