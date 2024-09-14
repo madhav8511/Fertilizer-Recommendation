@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Fertilizer-Recommendation/public/static/css/main.14aaf87f.css",
-    "main.js": "/Fertilizer-Recommendation/public/static/js/main.a822aaee.js",
-    "index.html": "/Fertilizer-Recommendation/public/index.html",
-    "main.14aaf87f.css.map": "/Fertilizer-Recommendation/public/static/css/main.14aaf87f.css.map",
-    "main.a822aaee.js.map": "/Fertilizer-Recommendation/public/static/js/main.a822aaee.js.map"
+    "main.css": "/Fertilizer-Recommendation/static/css/main.14aaf87f.css",
+    "main.js": "/Fertilizer-Recommendation/static/js/main.a822aaee.js",
+    "index.html": "/Fertilizer-Recommendation/index.html",
+    "main.14aaf87f.css.map": "/Fertilizer-Recommendation/static/css/main.14aaf87f.css.map",
+    "main.a822aaee.js.map": "/Fertilizer-Recommendation/static/js/main.a822aaee.js.map"
   },
   "entrypoints": [
     "static/css/main.14aaf87f.css",
