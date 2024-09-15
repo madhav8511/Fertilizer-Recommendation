@@ -13,7 +13,7 @@ export default function Service() {
             </div>
             <div className="main-content">
                 <img className="content-image" src="https://chatgen.ai/wp-content/uploads/2023/04/AI-chat-5-1200x675.png" alt='hi'/>
-                <h2>Sahayak : Our AI chat bot</h2>
+                <h2>Sahayak : Our AI Chat Bot</h2>
             </div>
             <div className="main-content">
                 <img className="content-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlqPU7V0v1kRCNfSF9lX0Dj0q-NF86n4LEGw&s" alt='hi'/>

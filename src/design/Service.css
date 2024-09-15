@@ -22,8 +22,9 @@
 .services .content .main-content {
     width: 300px;
     height: 300px;
-    background-color: #fff;
-    border: 1px solid #ddd;
+    background: rgba(255, 255, 255, 0.1);
+    /* background-color: #fff; */
+    /* border: 1px solid #ddd; */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     display: flex;
@@ -35,13 +36,14 @@
 
 .services .content .main-content:hover {
     transform: translateY(-10px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 255, 1);
 }
 
 .services .content .main-content .content-image {
     width: 120px;
     height: 120px;
-    border: 3px solid #4CAF50;
+    border: 3px solid #006A4E;
     border-radius: 50%;
     margin-top: 20px;
     object-fit: cover;
@@ -50,7 +52,7 @@
 .services .content .main-content h2 {
     margin-top: 20px;
     font-size: 32px;
-    color: #333;
+    color: white;
     font-family: 'Arial', sans-serif;
     text-align: center;
     font-weight: 500;
@@ -71,8 +73,7 @@
     .services .content .main-content {
         width: 200px;
         height: 200px;
-        background-color: #fff;
-        border: 1px solid #ddd;
+        background: rgba(255, 255, 255, 0.1);
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         border-radius: 10px;
         display: flex;
@@ -94,7 +95,7 @@
     .services .content .main-content h2 {
         margin-top: 20px;
         font-size: 20px;
-        color: #333;
+        color: white;
         font-family: 'Arial', sans-serif;
         text-align: center;
         font-weight: 500;
